@@ -4,24 +4,11 @@
       "nombre": "Análisis Real",
       "practicas": [
         {
-          "titulo": "Práctica 0 - Repaso de conjuntos y lógica",
-          "ejercicios": [
-            { "nombre": "Ejercicio 1", "ruta_pdf": "pdfs/analisis-real/practica-0/ej01.pdf" },
-            { "nombre": "Ejercicio 2", "ruta_pdf": "pdfs/analisis-real/practica-0/ej02.pdf" }
-          ]
-        },
-        {
-          "titulo": "Práctica 1 - Sucesiones",
-          "ejercicios": [
-            { "nombre": "Ejercicio 1", "ruta_pdf": "pdfs/analisis-real/practica-1/ej01.pdf" },
-            { "nombre": "Ejercicio 2", "ruta_pdf": "pdfs/analisis-real/practica-1/ej02.pdf" },
-            { "nombre": "Ejercicio 3", "ruta_pdf": "pdfs/analisis-real/practica-1/ej03.pdf" }
-          ]
-        },
-        {
           "titulo": "Práctica 2 - Numeros Reales",
           "ejercicios": [
-            { "nombre": "Ejercicio 3", "ruta_pdf": "pdfs/analisis-real/practica-2/ej03.pdf" }
+            { "nombre": "Ejercicio I.3", "ruta_pdf": "pdfs/analisis-real/practica-2/S02_AR_Prac2_Ejer_I3.pdf" },
+            { "nombre": "Ejercicio I.4", "ruta_pdf": "pdfs/analisis-real/practica-2/S02_AR_Prac2_Ejer_I4.pdf" },
+            { "nombre": "Ejercicio I.5", "ruta_pdf": "pdfs/analisis-real/practica-2/S02_AR_Prac2_Ejer_I5.pdf" }
           ]
         }
       ]
