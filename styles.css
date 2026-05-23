@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f7fb;
+    color: #1e2a3e;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #0f3b5c;
+}
+
+header p {
+    color: #2c5a7a;
+    font-size: 1.1rem;
+}
+
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* Tarjetas de curso */
+.curso {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    overflow: hidden;
+    transition: all 0.2s ease;
+}
+
+.curso-header {
+    background: #1e4663;
+    color: white;
+    padding: 15px 25px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.curso-header h2 {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+}
+
+.curso-header .icono {
+    font-size: 1.8rem;
+    transition: transform 0.2s;
+}
+
+.curso-body {
+    padding: 20px;
+    display: none;
+}
+
+.curso-body.open {
+    display: block;
+}
+
+/* Prácticas */
+.practica {
+    margin-bottom: 25px;
+    border-left: 4px solid #ffb347;
+    padding-left: 20px;
+}
+
+.practica h3 {
+    font-size: 1.4rem;
+    color: #1e4663;
+    margin-bottom: 12px;
+}
+
+/* Botones de ejercicios */
+.ejercicios-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.btn-ejercicio {
+    background: #eef2f7;
+    border: 1px solid #cbd5e1;
+    color: #0f3b5c;
+    padding: 8px 16px;
+    border-radius: 40px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.btn-ejercicio:hover {
+    background: #1e4663;
+    color: white;
+    border-color: #1e4663;
+    transform: translateY(-2px);
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 0.85rem;
+    color: #5e727e;
+    border-top: 1px solid #dce5ec;
+}
+
+.cargando {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 40px;
+    color: #2c5a7a;
+}
+
+.sin-ejercicios {
+    color: #8ba0ae;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+/* Visor PDF */
+#visor-pdf {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-top: 30px;
+}
+
+#visor-pdf h3 {
+    color: #1e4663;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+#pdf-iframe {
+    width: 100%;
+    height: 600px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    background: #f0f2f5;
+}
+
+@media (max-width: 700px) {
+    .curso-header h2 {
+        font-size: 1.3rem;
+    }
+    .btn-ejercicio {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+    #pdf-iframe {
+        height: 400px;
+    }
+}
