@@ -8,7 +8,11 @@
           "ejercicios": [
             { "nombre": "Ejercicio I.3", "ruta_pdf": "pdfs/analisis-real/practica-2/S02_AR_Prac2_Ejer_I3.pdf" },
             { "nombre": "Ejercicio I.4", "ruta_pdf": "pdfs/analisis-real/practica-2/S02_AR_Prac2_Ejer_I4.pdf" },
-            { "nombre": "Ejercicio I.5", "ruta_pdf": "pdfs/analisis-real/practica-2/S02_AR_Prac2_Ejer_I5.pdf" }
+            { "nombre": "Ejercicio I.5", "ruta_pdf": "pdfs/analisis-real/practica-2/S02_AR_Prac2_Ejer_I5.pdf" },
+            { "nombre": "Ejercicio II.2", "ruta_pdf": "pdfs/analisis-real/practica-2/S02_AR_Prac2_Ejer_II2.pdf" },
+            { "nombre": "Ejercicio II.3", "ruta_pdf": "pdfs/analisis-real/practica-2/S02_AR_Prac2_Ejer_II3.pdf" },
+            { "nombre": "Ejercicio II.4", "ruta_pdf": "pdfs/analisis-real/practica-2/S02_AR_Prac2_Ejer_II4.pdf" },
+            { "nombre": "Ejercicio II.5", "ruta_pdf": "pdfs/analisis-real/practica-2/S02_AR_Prac2_Ejer_II5.pdf" }
           ]
         }
       ]
