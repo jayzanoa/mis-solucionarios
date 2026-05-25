@@ -12,7 +12,17 @@
             { "nombre": "Ejercicio II.2", "ruta_pdf": "pdfs/analisis-real/practica-2/S02_AR_Prac2_Ejer_II2.pdf" },
             { "nombre": "Ejercicio II.3", "ruta_pdf": "pdfs/analisis-real/practica-2/S02_AR_Prac2_Ejer_II3.pdf" },
             { "nombre": "Ejercicio II.4", "ruta_pdf": "pdfs/analisis-real/practica-2/S02_AR_Prac2_Ejer_II4.pdf" },
-            { "nombre": "Ejercicio II.5", "ruta_pdf": "pdfs/analisis-real/practica-2/S02_AR_Prac2_Ejer_II5.pdf" }
+            { "nombre": "Ejercicio II.5", "ruta_pdf": "pdfs/analisis-real/practica-2/S02_AR_Prac2_Ejer_II5.pdf" },
+            { "nombre": "Ejercicio III.2", "ruta_pdf": "pdfs/analisis-real/practica-2/S02_AR_Prac2_Ejer_III2.pdf" },
+            { "nombre": "Ejercicio III.3", "ruta_pdf": "pdfs/analisis-real/practica-2/S02_AR_Prac2_Ejer_III3.pdf" },
+            { "nombre": "Ejercicio III.4", "ruta_pdf": "pdfs/analisis-real/practica-2/S02_AR_Prac2_Ejer_III4.pdf" },
+            { "nombre": "Ejercicio III.6", "ruta_pdf": "pdfs/analisis-real/practica-2/S02_AR_Prac2_Ejer_III6.pdf" },
+            { "nombre": "Ejercicio III.7", "ruta_pdf": "pdfs/analisis-real/practica-2/S02_AR_Prac2_Ejer_III7.pdf" },
+            { "nombre": "Ejercicio III.8", "ruta_pdf": "pdfs/analisis-real/practica-2/S02_AR_Prac2_Ejer_III8.pdf" },
+            { "nombre": "Ejercicio III.9", "ruta_pdf": "pdfs/analisis-real/practica-2/S02_AR_Prac2_Ejer_III9.pdf" },
+            { "nombre": "Ejercicio III.10", "ruta_pdf": "pdfs/analisis-real/practica-2/S02_AR_Prac2_Ejer_III10.pdf" },
+            { "nombre": "Ejercicio III.11", "ruta_pdf": "pdfs/analisis-real/practica-2/S02_AR_Prac2_Ejer_III11.pdf" },
+            { "nombre": "Ejercicio III.12", "ruta_pdf": "pdfs/analisis-real/practica-2/S02_AR_Prac2_Ejer_III12.pdf" }
           ]
         }
       ]
