@@ -32,14 +32,12 @@ main {
     margin: 0 auto;
 }
 
-/* Tarjetas de curso */
 .curso {
     background: white;
     border-radius: 16px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     margin-bottom: 30px;
     overflow: hidden;
-    transition: all 0.2s ease;
 }
 
 .curso-header {
@@ -54,7 +52,6 @@ main {
 
 .curso-header h2 {
     font-size: 1.6rem;
-    letter-spacing: 1px;
 }
 
 .curso-header .icono {
@@ -71,7 +68,6 @@ main {
     display: block;
 }
 
-/* Prácticas */
 .practica {
     margin-bottom: 25px;
     border-left: 4px solid #ffb347;
@@ -84,7 +80,6 @@ main {
     margin-bottom: 12px;
 }
 
-/* Botones de ejercicios */
 .ejercicios-grid {
     display: flex;
     flex-wrap: wrap;
@@ -115,6 +110,21 @@ main {
     transform: translateY(-2px);
 }
 
+/* Estilo para ejercicios fijos */
+.btn-ejercicio.btn-fijo {
+    background: #ffe0b5;
+    border-color: #ff9800;
+    color: #b45f00;
+    font-weight: bold;
+    box-shadow: 0 0 0 1px #ffb74d inset;
+}
+
+.btn-ejercicio.btn-fijo:hover {
+    background: #ffb347;
+    color: white;
+    border-color: #e65100;
+}
+
 footer {
     text-align: center;
     margin-top: 50px;
@@ -134,10 +144,8 @@ footer {
 .sin-ejercicios {
     color: #8ba0ae;
     font-style: italic;
-    font-size: 0.9rem;
 }
 
-/* Visor PDF */
 #visor-pdf {
     background: white;
     border-radius: 16px;
@@ -149,7 +157,6 @@ footer {
 #visor-pdf h3 {
     color: #1e4663;
     margin-bottom: 15px;
-    font-size: 1.3rem;
 }
 
 #pdf-iframe {

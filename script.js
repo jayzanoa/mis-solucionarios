@@ -28,7 +28,7 @@ async function cargarSolucionarios() {
             `;
         }
         contenedor.innerHTML = html;
-        // Eventos acordeón
+        // Acordeón
         const headers = document.querySelectorAll('.curso-header');
         headers.forEach(header => {
             header.addEventListener('click', () => {
@@ -72,18 +72,19 @@ function generarEjerciciosHTML(ejercicios) {
     if (!ejercicios || ejercicios.length === 0) return '<span class="sin-ejercicios">Aún sin ejercicios subidos.</span>';
     let botones = '';
     for (const ej of ejercicios) {
-        // Escapa la ruta para evitar errores con comillas
         const rutaEscapada = ej.ruta_pdf.replace(/'/g, "\\'");
+        const esFijo = ej.fijo === true;
+        const claseFijo = esFijo ? ' btn-fijo' : '';
+        const estrella = esFijo ? ' ⭐' : '';
         botones += `
-            <button class="btn-ejercicio" onclick="mostrarPDF('${rutaEscapada}')">
-                📄 ${ej.nombre}
+            <button class="btn-ejercicio${claseFijo}" onclick="mostrarPDF('${rutaEscapada}')">
+                📄 ${ej.nombre}${estrella}
             </button>
         `;
     }
     return botones;
 }
 
-// Función global para mostrar PDF en el iframe
 window.mostrarPDF = function(ruta) {
     const visor = document.getElementById('visor-pdf');
     const iframe = document.getElementById('pdf-iframe');
